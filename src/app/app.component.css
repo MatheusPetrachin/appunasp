@@ -2,6 +2,13 @@
     margin-left: 8px;
 }
 
+a,
+button,
+title {
+    padding: 10px;
+    margin: 5px;
+}
+
 .content {
     margin: auto;
     padding: auto;
@@ -35,10 +42,25 @@
 }
 
 ::ng-deep .mat-expansion-panel {
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .75);
 }
 
 .mat-expansion-panel-header-title,
-.mat-expansion-panel-title {
+.mat-expansion-panel-header-description,
+.ng-star-inserted {
     color: white
+}
+
+h1 {
+    color: black;
+}
+
+.mat-button.mat-black {
+    color: black;
+}
+
+.mat-raised-button.mat-black,
+.mat-flat-button.mat-black {
+    background-color: black;
+    color: white;
 }

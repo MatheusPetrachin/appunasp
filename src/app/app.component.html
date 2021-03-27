@@ -4,10 +4,13 @@
 
 <div class="col-12 text-center background" *ngIf="materias">
 
-    <div class="row col-12">
+    <div class="row col-12 title">
         <div class="col text-center">
             <img src="{{materias.logoURL}}" class="login-logo rotate-in-center">
             <h1>{{materias.title}}</h1>
+
+            <a href="{{materias.URLclass}}" target="_blank"><button mat-raised-button color="black">Sala</button></a>
+            <a href="{{materias.URLmegaclass}}" target="_blank"><button mat-raised-button color="black">MegaClass</button></a>
         </div>
     </div>
 
@@ -24,8 +27,10 @@
                             {{item.teacher}}
                         </mat-panel-description>
                     </mat-expansion-panel-header>
+
                     <div *ngFor="let item of item.Tasks">
-                        {{item.name}}
+                        <mat-card class="col-3">{{item.name}}</mat-card>
+
                     </div>
 
                 </mat-expansion-panel>
