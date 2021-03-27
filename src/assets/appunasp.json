@@ -1,0 +1,25 @@
+{
+    "title": "Engenharia da Computação - 7ºSem",
+    "logoURL": "../assets/images/engcomp.png",
+    "Apps": [{
+            "name": "Fenomenos do transporte",
+            "teacher": "Claudio",
+            "imageURL": "'../assets/images/homologacao.png'",
+            "Tasks": [{
+                "name": "Tarefa 1",
+                "URL": "https://homologacao.hunterdouglas.com.br/PedidosAX_Hom",
+                "description": "Fazer tal coisa"
+            }]
+        },
+        {
+            "name": "Processamento de Sinais",
+            "teacher": "Fabiano",
+            "imageURL": "'../assets/images/homologacao.png'",
+            "Tasks": [{
+                "name": "Tarefa 1",
+                "URL": "https://homologacao.hunterdouglas.com.br/PedidosAX_Hom",
+                "description": "Fazer tal coisa"
+            }]
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+.mat-form-field+.mat-form-field {
+    margin-left: 8px;
+}
+
+.content {
+    margin: auto;
+    padding: auto;
+}
+
+.login-logo {
+    width: 75px;
+    height: auto;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.rotate-in-center {
+    animation: rotate-in-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes rotate-in-center {
+    0% {
+        transform: rotate(-360deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+.background {
+    background-color: rgba(0, 0, 0, .3);
+    min-height: 100%;
+}
+
+::ng-deep .mat-expansion-panel {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.mat-expansion-panel-header-title,
+.mat-expansion-panel-title {
+    color: white
+}
