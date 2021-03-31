@@ -14,28 +14,6 @@
         </div>
     </div>
 
-    <div class="row col-12 col-md-8 content">
-        <div class="col text-center">
-            <div *ngFor="let item of materias.Apps">
-                <mat-expansion-panel hideToggle class="col-12">
+    <iframe src="https://trello.com/b/EebDugTH.html" frameBorder="0" width="100%" height="600"></iframe>
 
-                    <mat-expansion-panel-header>
-                        <mat-panel-title>
-                            {{item.name}}
-                        </mat-panel-title>
-                        <mat-panel-description>
-                            {{item.teacher}}
-                        </mat-panel-description>
-                    </mat-expansion-panel-header>
-
-                    <div *ngFor="let item of item.Tasks">
-                        <mat-card class="col-3">{{item.name}}</mat-card>
-
-                    </div>
-
-                </mat-expansion-panel>
-
-            </div>
-        </div>
-    </div>
 </div>
