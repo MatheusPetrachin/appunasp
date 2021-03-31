@@ -20,5 +20,5 @@ export class AppComponent {
     });
   }
 
-  title = 'appunasp';
+  title = 'UNASP';
 }
