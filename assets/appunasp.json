@@ -3,22 +3,5 @@
     "logoURL": "https://raw.githubusercontent.com/MatheusPetrachin/appunasp/master/src/assets/images/engcomp.png",
     "URLclass": "https://educadventista.zoom.us/j/88356224023?pwd=Q2tFWmV2QUhQU1h0bFZjcUVkWUFsdz09",
     "URLmegaclass": "https://educadventista.zoom.us/j/88356224023?pwd=Q2tFWmV2QUhQU1h0bFZjcUVkWUFsdz09",
-    "URLTrello": "https://trello.com/b/EebDugTH/unasp",
-    "Apps": [{
-            "name": "Fenomenos do transporte",
-            "teacher": "Claudio",
-            "Tasks": [{
-                "name": "Tarefa 1",
-                "description": "Fazer tal coisa"
-            }]
-        },
-        {
-            "name": "Processamento de Sinais",
-            "teacher": "Fabiano",
-            "Tasks": [{
-                "name": "Tarefa 1",
-                "description": "Fazer tal coisa"
-            }]
-        }
-    ]
+    "URLdiscord": "https://discord.gg/NdC9fqFd"
 }
